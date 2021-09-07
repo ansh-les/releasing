@@ -6,6 +6,9 @@
   "author": "Ansh Saini <ansh@lestransformations.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "release": "npm publish --access public && auto shipit"
+  },
   "devDependencies": {
     "auto": "^10.31.0"
   }
